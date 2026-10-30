@@ -1,0 +1,12 @@
+{"cases": [
+  {"id": 1, "priority": "p0", "description": "打開首頁 / ，預期顯示導航列（含部落格標題、首頁、關於、搜尋框）與 Hero 區塊（歡迎標題與搜尋列）"},
+  {"id": 2, "priority": "p0", "description": "首頁顯示資料庫未初始化提示（SetupAlert），有「前往初始化頁面」按鈕可點擊"},
+  {"id": 3, "priority": "p0", "description": "點擊首頁導航的「關於」連結，跳轉到 /about 頁面並顯示「關於這個部落格」標題"},
+  {"id": 4, "priority": "p1", "description": "造訪 /admin/login 頁面，顯示登入表單（Email、密碼輸入框與登入按鈕）"},
+  {"id": 5, "priority": "p1", "description": "登入頁有「註冊」切換標籤，點擊後顯示註冊表單"},
+  {"id": 6, "priority": "p0", "description": "造訪 /admin/init-sql 頁面，顯示 SQL 初始化步驟說明與程式碼區塊，有「複製」按鈕"},
+  {"id": 7, "priority": "p1", "description": "造訪 /admin/settings 頁面，顯示 Supabase URL 與 Anon Key 輸入框及測試連線、儲存按鈕"},
+  {"id": 8, "priority": "p1", "description": "首頁為響應式布局，手機寬度下漢堡選單可開啟顯示移動端導航"},
+  {"id": 9, "priority": "p2", "description": "造訪 /article/test-slug 頁面，顯示文章頁布局（返回按鈕與標題區），因無文章顯示相關提示"},
+  {"id": 10, "priority": "p2", "description": "造訪 /search?q=test 頁面，顯示搜尋結果頁布局與搜尋框"}
+]}
